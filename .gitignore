@@ -4,3 +4,4 @@ __pycache__/
 .mend/
 node_modules/
 target/
+go-app/go-app
