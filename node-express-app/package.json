@@ -1,0 +1,19 @@
+{
+  "name": "node-express-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mendスキャン練習用。既知の脆弱性がある古いバージョンを意図的に固定している。",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.16.0",
+    "lodash": "4.17.15",
+    "axios": "0.21.0",
+    "minimist": "1.2.0",
+    "node-fetch": "2.6.0",
+    "jsonwebtoken": "8.5.1",
+    "ejs": "3.1.6"
+  }
+}
