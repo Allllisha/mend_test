@@ -1,0 +1,9 @@
+# Mendスキャン練習用：既知の脆弱性を含む古いバージョンを意図的に固定している
+flask==2.0.1
+werkzeug==2.0.2
+jinja2==3.0.3
+requests==2.25.1
+urllib3==1.26.4
+idna==2.10
+certifi==2021.10.8
+PyJWT==1.7.1
