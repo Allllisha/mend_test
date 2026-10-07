@@ -26,8 +26,8 @@ jobs:
           MEND_EMAIL: ${{ secrets.MEND_EMAIL }}
           MEND_USER_KEY: ${{ secrets.MEND_USER_KEY }}
           MEND_URL: https://saas.whitesourcesoftware.com
+          MEND_ORGANIZATION: 9f3c7c20-97f2-4b3a-b829-bdd9fb9686b8
         run: |
-          echo "MEND_EMAIL length: ${#MEND_EMAIL}, MEND_USER_KEY length: ${#MEND_USER_KEY}, MEND_URL: $MEND_URL"
           mend code --non-interactive \
             --scope "G-Gravity_Demo//Arisa-Test//mend_test" \
             --report --formats sarif --filename mend-sast
